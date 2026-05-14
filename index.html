@@ -38,7 +38,7 @@ body{background:var(--white);color:var(--text);font-family:'Inter',-apple-system
 /* ── NAV ── */
 nav{position:sticky;top:0;z-index:300;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 40px;height:60px;display:flex;align-items:center;justify-content:space-between}
 .nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.nav-mark{width:32px;height:32px;border-radius:8px;background:var(--navy);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:white}
+.nav-logo{height:36px;width:auto;display:block;object-fit:contain}
 .nav-name{font-size:15px;font-weight:700;color:var(--navy);letter-spacing:-0.3px}
 .nav-name span{color:var(--blue)}
 .nav-right{display:flex;align-items:center;gap:12px}
@@ -205,7 +205,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:22px 40px
 <!-- NAV -->
 <nav>
   <a class="nav-brand" href="https://dataondemand.humanli.ai" target="_blank">
-    <div class="nav-mark">D</div>
+    <img class="nav-logo" src="dod-logo.png" alt="DoD Logo">
     <div class="nav-name">Data On Demand <span>· Humanli.ai</span></div>
   </a>
   <div class="nav-right">
